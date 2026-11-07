@@ -1,0 +1,20 @@
+{
+    "name": "inventory",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "inventory.stock",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail"
+    ],
+    "exposes": [
+        "Plugins\\Inventory\\API\\Contracts\\InventoryServiceContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Stock items, batches, movements, rooms, suppliers, requisitions, incidents and signed handovers.",
+    "config": []
+}

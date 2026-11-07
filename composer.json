@@ -1,0 +1,24 @@
+{
+    "name": "alfacode-team/hkm-plugin-inventory",
+    "description": "Stock items, batches, movements, rooms, suppliers, requisitions, incidents and signed handovers.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Inventory\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugins\\Inventory\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
